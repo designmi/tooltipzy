@@ -1,0 +1,83 @@
+/* ToolTipzy Version 1.0 MIT License */
+/* Designed and Developed by Ben Osborne */
+/* Copyright Owner DesignMi Ltd */
+
+div.ToolTipzy{
+	background-color:#000000;
+	color:#FFFFFF;
+	padding:5px 8px 5px 8px;
+	width:auto;
+	position:absolute;
+	border-radius:0px;
+	display:none;
+	font-family:Tahoma;
+	font-size:10px;
+}
+
+/* Arrow Default */
+div.ToolTipzyArrow {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #000000;
+	position: absolute;
+}
+
+/* North - Arrow Up */
+div.ToolTipzyArrow.pos-N {
+	border-top:none;
+	border-bottom: 6px solid #000000;
+}
+
+/* South - Arrow Down */
+div.ToolTipzyArrow.pos-S {
+	border-top: 6px solid #000000;
+}
+
+/* West - Arrow Left */
+div.ToolTipzyArrow.pos-W {
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 6px solid #000000;
+}
+
+/* East - Arrow Right */
+div.ToolTipzyArrow.pos-E {
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 6px solid #000000;
+}
+
+/* Styles */
+
+/* Dark */
+div.ToolTipzy.thm-dark{background-color:#000000;}
+div.ToolTipzyArrow.pos-N.thm-dark{border-bottom-color:#000000;}
+div.ToolTipzyArrow.pos-S.thm-dark{border-top-color:#000000;}
+div.ToolTipzyArrow.pos-W.thm-dark{border-right-color:#000000;}
+div.ToolTipzyArrow.pos-E.thm-dark{border-left-color:#000000;}
+
+div.ToolTipzy.thm-blue{background-color:#2980b9;}
+div.ToolTipzyArrow.pos-N.thm-blue{border-bottom-color:#2980b9;}
+div.ToolTipzyArrow.pos-S.thm-blue{border-top-color:#2980b9;}
+div.ToolTipzyArrow.pos-W.thm-blue{border-right-color:#2980b9;}
+div.ToolTipzyArrow.pos-E.thm-blue{border-left-color:#2980b9;}
+
+div.ToolTipzy.thm-purple{background-color:#8e44ad;}
+div.ToolTipzyArrow.pos-N.thm-purple{border-bottom-color:#8e44ad;}
+div.ToolTipzyArrow.pos-S.thm-purple{border-top-color:#8e44ad;}
+div.ToolTipzyArrow.pos-W.thm-purple{border-right-color:#8e44ad;}
+div.ToolTipzyArrow.pos-E.thm-purple{border-left-color:#8e44ad;}
+
+div.ToolTipzy.thm-md-blue{background-color:#2c3e50;}
+div.ToolTipzyArrow.pos-N.thm-md-blue{border-bottom-color:#2c3e50;}
+div.ToolTipzyArrow.pos-S.thm-md-blue{border-top-color:#2c3e50;}
+div.ToolTipzyArrow.pos-W.thm-md-blue{border-right-color:#2c3e50;}
+div.ToolTipzyArrow.pos-E.thm-md-blue{border-left-color:#2c3e50;}
+
+div.ToolTipzy.thm-red{background-color:#c0392b;}
+div.ToolTipzyArrow.pos-N.thm-red{border-bottom-color:#c0392b;}
+div.ToolTipzyArrow.pos-S.thm-red{border-top-color:#c0392b;}
+div.ToolTipzyArrow.pos-W.thm-red{border-right-color:#c0392b;}
+div.ToolTipzyArrow.pos-E.thm-red{border-left-color:#c0392b;}
